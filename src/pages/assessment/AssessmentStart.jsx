@@ -28,7 +28,7 @@ export default function AssessmentStart() {
               transition={{ duration: 0.3 }}
             >
               <div className="h-48 bg-cover bg-center" style={{ 
-                backgroundImage: `url('PLACEHOLDER')` 
+                backgroundImage: `url('https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?q=80&w=1470&auto=format&fit=crop')` 
               }} data-image-request="family with children at home, family security concept"></div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-accent1">Family Protection</h3>
@@ -70,7 +70,7 @@ export default function AssessmentStart() {
               transition={{ duration: 0.3, delay: 0.1 }}
             >
               <div className="h-48 bg-cover bg-center" style={{ 
-                backgroundImage: `url('PLACEHOLDER')` 
+                backgroundImage: `url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop')` 
               }} data-image-request="business office with professionals, business protection concept"></div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-accent2">Business Protection</h3>

@@ -11,7 +11,7 @@ export default function Home() {
         <div 
           className="relative h-[500px] bg-cover bg-center" 
           style={{ 
-            backgroundImage: `url('PLACEHOLDER')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6?q=80&w=1600&auto=format&fit=crop')`,
             backgroundPosition: '50% 65%'
           }}
           data-image-request="happy family with two children at home, financial security concept"
@@ -109,7 +109,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <div className="h-64 bg-cover bg-center" style={{ 
-                backgroundImage: `url('PLACEHOLDER')` 
+                backgroundImage: `url('https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1470&auto=format&fit=crop')` 
               }} data-image-request="happy family with children playing outdoors, family protection concept"></div>
               <div className="p-6 bg-white">
                 <h3 className="text-2xl font-semibold text-accent1">Family Protection</h3>
@@ -132,7 +132,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <div className="h-64 bg-cover bg-center" style={{ 
-                backgroundImage: `url('PLACEHOLDER')` 
+                backgroundImage: `url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1470&auto=format&fit=crop')` 
               }} data-image-request="professional business people in an office meeting, business protection concept"></div>
               <div className="p-6 bg-white">
                 <h3 className="text-2xl font-semibold text-accent2">Business Protection</h3>
