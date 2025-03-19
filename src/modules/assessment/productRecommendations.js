@@ -44,8 +44,8 @@ export function analyzeFamilyResponses(responses) {
     recommendations.push({
       product: 'Critical Illness Cover',
       priority: 'Medium',
-      reason: 'Provides a lump sum payment if you're diagnosed with a specified serious illness.',
-      details: 'Critical illness cover pays out a tax-free lump sum if you're diagnosed with one of the specified critical illnesses covered by the policy.'
+      reason: 'Provides a lump sum payment if you\'re diagnosed with a specified serious illness.',
+      details: 'Critical illness cover pays out a tax-free lump sum if you\'re diagnosed with one of the specified critical illnesses covered by the policy.'
     });
   }
   

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { analyzeFamilyResponses, analyzeBusinessResponses } from '@/modules/assessment/productRecommendations';
+import { analyzeFamilyResponses, analyzeBusinessResponses } from '../../modules/assessment/productRecommendations';
 
 describe('Family protection recommendations', () => {
   it('recommends life insurance for families with dependents', () => {
