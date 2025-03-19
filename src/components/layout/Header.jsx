@@ -28,7 +28,7 @@ export function Header() {
                       src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/c7bd5333-787f-461f-ae9b-22acbc0ed4b0/55145115-0624-472f-96b9-d5d88aae355f.png?width=48&height=48"
                       alt="Lifepoint"
                     />
-                    <span className="font-display text-primary font-semibold">Lifepoint</span>
+                    <span className="font-display text-accent2 font-semibold">Lifepoint</span>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -42,7 +42,7 @@ export function Header() {
                         to={item.href}
                         className={`inline-flex items-center px-1 pt-1 text-sm font-medium ${
                           isActive
-                            ? 'border-b-2 border-primary text-primary'
+                            ? 'border-b-2 border-accent1 text-accent1'
                             : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
                         }`}
                       >
@@ -54,7 +54,7 @@ export function Header() {
               </div>
               
               <div className="-mr-2 flex items-center sm:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-accent1">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -79,7 +79,7 @@ export function Header() {
                     to={item.href}
                     className={`block border-l-4 py-2 pl-3 pr-4 text-base font-medium ${
                       isActive
-                        ? 'border-primary bg-primary/5 text-primary'
+                        ? 'border-accent1 bg-accent1/5 text-accent1'
                         : 'border-transparent text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700'
                     }`}
                   >

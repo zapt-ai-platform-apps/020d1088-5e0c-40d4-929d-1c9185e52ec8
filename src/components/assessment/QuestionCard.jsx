@@ -17,7 +17,7 @@ export function QuestionCard({
       className="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-3xl"
     >
       <div className="p-6 sm:p-8">
-        <h3 className="text-xl font-semibold text-gray-900">{question}</h3>
+        <h3 className="text-xl font-semibold text-accent2">{question}</h3>
         <div className="mt-6 space-y-6">
           {children}
         </div>
@@ -25,7 +25,7 @@ export function QuestionCard({
           <button
             type="button"
             onClick={onBack}
-            className="btn-outline cursor-pointer"
+            className="btn border-2 border-secondary text-secondary hover:bg-secondary/5 cursor-pointer"
           >
             Back
           </button>
@@ -33,7 +33,7 @@ export function QuestionCard({
             type="button"
             onClick={onNext}
             disabled={isNextDisabled}
-            className="btn-primary cursor-pointer"
+            className="btn bg-accent1 text-white hover:bg-accent1-light cursor-pointer"
           >
             Next
           </button>

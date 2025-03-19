@@ -13,13 +13,13 @@ export function Footer() {
                 src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/c7bd5333-787f-461f-ae9b-22acbc0ed4b0/55145115-0624-472f-96b9-d5d88aae355f.png?width=64&height=64"
                 alt="Lifepoint"
               />
-              <span className="font-display text-primary text-xl font-semibold">Lifepoint</span>
+              <span className="font-display text-accent2 text-xl font-semibold">Lifepoint</span>
             </div>
             <p className="mt-4 text-sm text-gray-500">
               Protection Insurance Needs Analyzer by Lifepoint Lifecare
             </p>
             <div className="mt-6">
-              <a href="https://lifepointlifecare.co.uk" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary hover:text-primary-dark">
+              <a href="https://lifepointlifecare.co.uk" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-accent1 hover:text-accent1-dark">
                 Visit our website
               </a>
             </div>
@@ -31,22 +31,22 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link to="/assessment" className="text-sm text-gray-600 hover:text-primary">
+                <Link to="/assessment" className="text-sm text-gray-600 hover:text-accent1">
                   Protection Needs Assessment
                 </Link>
               </li>
               <li>
-                <Link to="/products" className="text-sm text-gray-600 hover:text-primary">
+                <Link to="/products" className="text-sm text-gray-600 hover:text-accent1">
                   Insurance Product Explorer
                 </Link>
               </li>
               <li>
-                <Link to="/glossary" className="text-sm text-gray-600 hover:text-primary">
+                <Link to="/glossary" className="text-sm text-gray-600 hover:text-accent1">
                   Insurance Term Glossary
                 </Link>
               </li>
               <li>
-                <Link to="/visualizer" className="text-sm text-gray-600 hover:text-primary">
+                <Link to="/visualizer" className="text-sm text-gray-600 hover:text-accent1">
                   Risk Assessment Visualizer
                 </Link>
               </li>
@@ -59,12 +59,12 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link to="/book-appointment" className="text-sm text-gray-600 hover:text-primary">
+                <Link to="/book-appointment" className="text-sm text-gray-600 hover:text-accent1">
                   Book a Consultation
                 </Link>
               </li>
               <li>
-                <a href="mailto:contact@lifepointlifecare.co.uk" className="text-sm text-gray-600 hover:text-primary">
+                <a href="mailto:contact@lifepointlifecare.co.uk" className="text-sm text-gray-600 hover:text-accent1">
                   Email Us
                 </a>
               </li>

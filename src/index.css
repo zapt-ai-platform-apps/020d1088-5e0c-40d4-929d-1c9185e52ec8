@@ -21,37 +21,37 @@
     @apply px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70 disabled:cursor-not-allowed;
   }
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary-light focus:ring-primary;
+    @apply btn bg-accent2 text-white hover:bg-accent2-light focus:ring-accent2;
   }
   .btn-secondary {
-    @apply btn bg-secondary text-primary hover:bg-secondary-light focus:ring-secondary;
+    @apply btn bg-secondary text-accent2 hover:bg-secondary-light focus:ring-secondary;
   }
   .btn-outline {
-    @apply btn border-2 border-primary text-primary hover:bg-primary/5 focus:ring-primary;
+    @apply btn border-2 border-accent1 text-accent1 hover:bg-accent1/5 focus:ring-accent1;
   }
   .card {
     @apply bg-white rounded-xl shadow-md overflow-hidden;
   }
   .input {
-    @apply px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary box-border;
+    @apply px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent1 focus:border-accent1 box-border;
   }
   .select {
-    @apply px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary box-border;
+    @apply px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent1 focus:border-accent1 box-border;
   }
   .checkbox {
-    @apply h-5 w-5 rounded border-gray-300 text-primary focus:ring-primary;
+    @apply h-5 w-5 rounded border-gray-300 text-accent1 focus:ring-accent1;
   }
   .radio {
-    @apply h-5 w-5 border-gray-300 text-primary focus:ring-primary;
+    @apply h-5 w-5 border-gray-300 text-accent1 focus:ring-accent1;
   }
   .badge {
     @apply inline-flex items-center py-1 px-3 rounded-full text-sm font-medium;
   }
   .badge-primary {
-    @apply badge bg-primary/10 text-primary;
+    @apply badge bg-accent1/10 text-accent1;
   }
   .badge-secondary {
-    @apply badge bg-secondary/20 text-primary;
+    @apply badge bg-secondary/20 text-accent2;
   }
 }
 
@@ -63,5 +63,5 @@
 
 .zapt-badge::before {
   content: '';
-  @apply w-3 h-3 bg-primary rounded-full mr-1.5;
+  @apply w-3 h-3 bg-accent1 rounded-full mr-1.5;
 }
